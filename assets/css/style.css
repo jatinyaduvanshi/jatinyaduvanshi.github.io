@@ -747,12 +747,12 @@ main {
 }
 
 .clients-item {
-  min-width: 60%;
+  min-width: auto;
   scroll-snap-align: start;
 }
 
 .clients-item img {
-  width: 450px;
+  width: 250px;
   filter: grayscale(1);
   transition: var(--transition-1);
 }
@@ -1251,7 +1251,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * client
    */
 
-  .clients-item { min-width: calc(33.33% - 10px); }
+  .clients-item { min-width: auto; }
 
 
 
@@ -1492,7 +1492,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     scroll-padding-inline: 45px;
   }
 
-  .clients-item { min-width: calc(33.33% - 35px); }
+  .clients-item { min-width: auto; }
 
 
 
@@ -1748,7 +1748,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   /* clients */
 
-  .clients-item { min-width: calc(25% - 38px); }
+  .clients-item { min-width: auto; }
 
 
 
